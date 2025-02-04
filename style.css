@@ -28,6 +28,10 @@
     src: url(Karla-Regular.woff2);
 }
 
+
+
+
+
 h2 {
     /* font-family: KeplerItalic; */
     font-family: Gothique;
@@ -100,4 +104,26 @@ ul {
     flex: 2 1 0;
     padding-left: 2%;
     /* outline: solid red 2px; */
+}
+
+
+table {
+    /* font-family: arial, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+td, th {
+    border: 2px solid darkseagreen;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    /* background-color: #dddddd; */
+    /* border: 2px dotted darkseagreen !important;  */
+    background-color: rgb(143, 188, 143, .3);
+}
+tr:nth-child(odd) {
+    /* background-color: #dddddd; */
+    /* border: 2px solid darkseagreen;  */
 }
