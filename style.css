@@ -127,3 +127,31 @@ tr:nth-child(odd) {
     /* background-color: #dddddd; */
     /* border: 2px solid darkseagreen;  */
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center content inside each .block */
+        width: 60%; /* Adjust width as needed */
+        margin: 10px 0; /* Space between blocks (optional) */
+        /* outline: 3px red solid; Uncomment to debug the layout */
+    }
+
+}
+@media only screen and (min-width: 3500px) {
+    .block {
+        display: flex;
+        justify-content: center; /* Center content inside each .block */
+        width: 60%; /* Adjust width as needed */
+        max-width: 1200px;
+        margin: 10px 0; /* Space between blocks (optional) */
+        /* outline: 3px red solid; Uncomment to debug the layout */
+    }
+
+}
