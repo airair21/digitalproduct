@@ -93,6 +93,12 @@ body {
 ul {
   list-style-type: square;
 }
+ul li ul {
+    list-style-type: circle;
+}
+ol ul {
+    list-style-type: circle;
+}
 
 
 .left {
