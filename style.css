@@ -27,6 +27,30 @@
     font-family: Karla;
     src: url(Karla-Regular.woff2);
 }
+@font-face {
+    font-family: Atleigh;
+    src: url(Atleigh-Display.woff2);
+}
+@font-face {
+    font-family: Director;
+    src: url(Director-Light.woff2);
+}
+@font-face {
+    font-family: America;
+    src: url(GT-America-Condensed-Light-Trial.woff2);
+}
+@font-face {
+    font-family: AmericaThin;
+    src: url(GT-America-Standard-Thin-Trial.woff2);
+}
+@font-face {
+    font-family: Cinetype;
+    src: url(GT-Cinetype-Light.woff2);
+}
+@font-face {
+    font-family: Nohemi;
+    src: url(Nohemi-ExtraLight.woff2);
+}
 
 
 
@@ -34,15 +58,19 @@
 
 h2 {
     /* font-family: KeplerItalic; */
-    font-family: Gothique;
+    /* font-family: CinetypeMono; */
+    font-family: Atleigh;
     /* font-family: Planar; */
-    font-size: 2rem;
+    font-size: 3rem;
 
     position: sticky;
+    margin-top: 3%;
 }
 p {
     padding-left: 2%;
     padding-right: 2%;
+
+    line-height: 150%;
 }
 em {
     font-size: 1.3rem;
@@ -71,15 +99,28 @@ em {
 body {
     /* font-family: CinetypeMono; */
     /* font-family: Thunder; */
-    font-family: Karla;
+    /* font-family: Karla; */
+    /* font-family: Kepler; */
+    /* font-family: Director; */
+    /* font-family: America; */
+    /* font-family: AmericaThin; */
+    font-family: Cinetype;
+    /* font-family: Nohemi; */
+
     font-weight: 200;
-    font-size: 1.2rem;
-    margin: 0; /* Remove default body margin */
-    display: flex; /* Apply flexbox layout to the body */
-    flex-direction: column; /* Stack the .block divs vertically */
-    align-items: center; /* Center .block divs horizontally */
-    justify-content: flex-start; /* Keep them at the top of the body */
-    height: 100vh; /* Ensure the body takes up the full viewport height */
+    font-size: 1.2vw;
+    /* margin: 0;  */
+        /* Remove default body margin */
+    display: flex; 
+        /* Apply flexbox layout to the body */
+    flex-direction: column; 
+        /* Stack the .block divs vertically */
+    align-items: center; 
+        /* Center .block divs horizontally */
+    justify-content: flex-start; 
+        /* Keep them at the top of the body */
+    /* height: 100vh;  */
+        /* Ensure the body takes up the full viewport height */
 }
 
 .block {
