@@ -123,6 +123,10 @@ body {
         /* Ensure the body takes up the full viewport height */
 }
 
+img {
+    width: 100%;
+}
+
 .block {
     display: flex;
     justify-content: center; /* Center content inside each .block */
