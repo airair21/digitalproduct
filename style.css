@@ -79,6 +79,10 @@ em {
     /* background-color: orange; */
     background-color: darkseagreen;
 }
+a {
+    color: rgb(228, 171, 26);
+    /* color: white; */
+}
 .reading {
     font-size: .88rem;
 }
