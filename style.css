@@ -70,7 +70,7 @@ p {
     padding-left: 2%;
     padding-right: 2%;
 
-    line-height: 150%;
+    /* line-height: 150%; */
 }
 em {
     font-size: 1.3rem;
@@ -144,6 +144,9 @@ ul li ul {
 ol ul {
     list-style-type: circle;
 }
+li {
+    padding-bottom: 2%;
+}
 
 
 .left {
@@ -155,6 +158,11 @@ ol ul {
     flex: 2 1 0;
     padding-left: 2%;
     /* outline: solid red 2px; */
+    
+}
+.right p {
+
+    line-height: 130%;
 }
 
 
@@ -163,6 +171,9 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 2%;
+}
+th {
+    font-style: italic;
 }
 td, th {
     border: 2px solid darkseagreen;
